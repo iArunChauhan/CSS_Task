@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+.box{
+     
+    background-color:rgb(14, 14, 12);
+    height:100vh;
+    width:100vw;
+
+
+}
+.box>h4{
+    text-align: center;
+    font-weight:400;
+    color: azure;
+    text-decoration: underline;
+}
+p{
+    color: rgb(85, 214, 65);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    text-decoration: line-through;
+    text-transform: lowercase;
+   
+}
