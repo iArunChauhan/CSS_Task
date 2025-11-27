@@ -109,10 +109,10 @@
 
 .features{
     display: flex;
-    justify-content: space-between; /* even spacing like screenshot */
+    justify-content: space-between; 
     align-items: flex-start;        
     gap: 30px;
-    background: #F2F9F5;            /* same pale green background */
+    background: #F2F9F5;            
     padding: 60px 80px;
 }
 
@@ -149,4 +149,5 @@ p{
 
 
     
+
 
