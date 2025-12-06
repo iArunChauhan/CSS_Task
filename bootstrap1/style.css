@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.modern {
+
+    height: 90vh;
+    width: 100%;
+
+
+
+}
+
+.mordern-img {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url('/images/modern1.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.mordern-img::after {
+    content: " ";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.text-box {
+
+    margin-bottom: 5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+
+
+}
+
+.btn1 {
+    border-radius: 30px;
+    border: 1px dotted #ef233c;
+    padding: 0.8rem;
+    color: white;
+    background-color: #ef233c;
+
+}
+
+.btn1:hover {
+
+    border: 1px dotted white;
+}
+
+.arrivals {
+
+    height: 40vh;
+    width: 100;
+
+}
+
+.arrivals-header {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+    padding: 4rem;
+}
+
+.btn2 {
+
+    border-radius: 30px;
+    border: 1px dotted #ef233c;
+    padding: 0.6rem;
+    color: white;
+    background-color: #ef233c;
+}
+
+.card-section {
+
+    height: 120vh;
+    width: 100%;
+
+
+}
+
+.card-1 {
+
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.details{
+
+    height:25%;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.categaries{
+
+    height:150vh;
+    width:100%;
+    background-color: #f7eced;
+}
+.our{
+
+    padding:2rem;
+}
+.our-card{
+    
+    
+   
+}
+@media (max-width:480px) {
+
+    .arrivals-header{
+         display: flex;
+         flex-direction: column;
+       
+         
+    }
+    .arrivals{
+
+        height:60vh;
+    }
+    .card-1{
+
+       display: flex;
+       flex-direction: column;
+    }
+    .card-section{
+
+        height: 320vh;
+    }
+}
